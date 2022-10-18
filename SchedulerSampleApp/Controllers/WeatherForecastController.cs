@@ -32,6 +32,7 @@ namespace SchedulerSampleApp.Controllers
         {
             _logger.LogError($"Triggered at {DateTime.UtcNow}");
             _book.ISBN = Guid.NewGuid().ToString();
+            _book.createddate = DateTime.UtcNow;
             _efbook.Add(_book);
             _efbook.SaveChanges();
             return (_book);
