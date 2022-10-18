@@ -4,7 +4,7 @@ namespace SchedulerSampleApp.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class BooktController : ControllerBase
+    public class BookController : ControllerBase
     {
        
 
