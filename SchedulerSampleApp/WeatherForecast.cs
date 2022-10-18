@@ -10,5 +10,7 @@ namespace SchedulerSampleApp
 
         public DateTime createddate { get; set; }
         
+        public String nameofbook { get; set;}
+        
     }
 }
