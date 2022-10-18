@@ -8,10 +8,10 @@ namespace SchedulerSampleApp.Controllers
     {
        
 
-        private readonly ILogger<BooktController> _logger;
+        private readonly ILogger<BookController> _logger;
         private readonly BookDB _efbook;
 
-        public BooktController(ILogger<BooktController> logger, BookDB efbook)
+        public BookController(ILogger<BookController> logger, BookDB efbook)
         {
             _logger = logger;
             _efbook = efbook;
